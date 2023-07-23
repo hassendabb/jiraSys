@@ -1,0 +1,12 @@
+{
+    "dotnet.defaultSolution": "Last.sln",
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:Last}/app.db",
+            "name": "Last"
+        }
+    ]
+}
